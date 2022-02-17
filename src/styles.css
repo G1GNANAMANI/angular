@@ -26,19 +26,16 @@ h1 {
   font-size: 42px;
   font-weight: bolder;
   font-family: Georgia, serif;
-  text-decoration: underline wavy black 2px;
 }
 
 h2 {
   font-size: 40px;
   font-weight: bolder;
-  text-decoration: underline wavy black 2px;
 }
 
 h1,
 h2 {
   font-weight: bolder;
-  text-decoration: underline wavy black 2px;
 }
 
 p {
@@ -51,7 +48,6 @@ p {
 a {
   cursor: pointer;
   color: darkorchid;
-  text-decoration: underline wavy black 2px;
 }
 
 a:hover {
