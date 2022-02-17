@@ -1,4 +1,4 @@
-<h2>Products</h2>
+<h1>PRODUCTS</h1>
 
 <div *ngFor="let product of products">
   <h3>
@@ -14,8 +14,10 @@
   <button type="button" (click)="share()">Share</button>
   &nbsp;
   <div style="background-color:red">
-    <app-product-alerts [productInside]="product"
-    (notify)="onNotify()"></app-product-alerts>
+    <app-product-alerts
+      [productInside]="product"
+      (notify)="onNotify()"
+    ></app-product-alerts>
   </div>
   &nbsp;
   <!-- <button type="button" (click)="buy()">Buy</button> -->
