@@ -2,6 +2,7 @@ export interface Product {
   id: number;
   name: string;
   price: number;
+
   description: string;
 }
 
@@ -9,13 +10,13 @@ export const products = [
   {
     id: 1,
     name: 'SHAMPOO',
-    price: 799,
+    price: 120,
     description: 'GOOD NOURISHMENT FOR HAIR',
   },
   {
     id: 2,
     name: 'SOAP',
-    price: 699,
+    price: 69,
     description: 'BEST FOR SKIN',
   },
   {

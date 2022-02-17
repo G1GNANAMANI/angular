@@ -9,11 +9,12 @@
     </a>
   </h3>
   <!-- structural directive -->
+  <p *ngIf="product.price">Price : {{ product.price }}</p>
   <p *ngIf="product.description">DESCRIPTION: {{ product.description }}</p>
   <!-- event binding -->
   <button type="button" (click)="share()">Share</button>
   &nbsp;
-  <button type="button" onclick="alert('Bought!')">Buy!</button>
+  <button type="button" onclick="alert('BOUGHT!')">Buy!</button>
   &nbsp;
   <button type="button" onclick="alert('BEST PRODUCT!')">Remarks!</button>
   <!-- <button type="button" (click)="buy()">Buy</button> -->
