@@ -24,6 +24,12 @@ export const products = [
     price: 299,
     description: 'A GOOD SENSE OF FRAGRANCE ',
   },
+  {
+    id: 4,
+    name: 'CONFECTIONARIES',
+    price: 699,
+    description: 'KIDS MOST FAVOURS TO THE CORE ',
+  },
 ];
 
 /*
