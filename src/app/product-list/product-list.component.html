@@ -1,26 +1,27 @@
 <h1>PRODUCTS</h1>
-<p
+<body
   style="background-image:url('https://thumbs.dreamstime.com/b/beautiful-autumn-background-flying-falling-colorful-leaves-bokeh-frame-beautiful-autumn-background-flying-falling-99139534.jpg');"
-></p>
-<div *ngFor="let product of products">
-  <h3>
-    <!-- property binding -->
-    <a [title]="product.name + ' details'">
-      <!-- string interpolation (data binding) -->
-      {{ product.name }}
-    </a>
-  </h3>
-  <!-- structural directive -->
-  <p *ngIf="product.price">Price : {{ product.price }}</p>
-  <p *ngIf="product.description">DESCRIPTION: {{ product.description }}</p>
-  <!-- event binding -->
-  <button type="button" (click)="share()">Share</button>
-  &nbsp;
-  <button type="button" onclick="alert('BOUGHT!')">Buy!</button>
-  &nbsp;
-  <button type="button" onclick="alert('BEST PRODUCT!')">Remarks!</button>
-  <button type="button" onclick="alert('ThankYou & visit again')">
-    ThankYou!
-  </button>
-  <!-- <button type="button" (click)="buy()">Buy</button> -->
-</div>
+>
+  <div *ngFor="let product of products">
+    <h3>
+      <!-- property binding -->
+      <a [title]="product.name + ' details'">
+        <!-- string interpolation (data binding) -->
+        {{ product.name }}
+      </a>
+    </h3>
+    <!-- structural directive -->
+    <p *ngIf="product.price">Price : {{ product.price }}</p>
+    <p *ngIf="product.description">DESCRIPTION: {{ product.description }}</p>
+    <!-- event binding -->
+    <button type="button" (click)="share()">Share</button>
+    &nbsp;
+    <button type="button" onclick="alert('BOUGHT!')">Buy!</button>
+    &nbsp;
+    <button type="button" onclick="alert('BEST PRODUCT!')">Remarks!</button>
+    <button type="button" onclick="alert('ThankYou & visit again')">
+      ThankYou!
+    </button>
+    <!-- <button type="button" (click)="buy()">Buy</button> -->
+  </div>
+</body>
