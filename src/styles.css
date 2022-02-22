@@ -2,7 +2,7 @@
 
 * {
   font-family: 'font-family: Tahoma, Verdana, sans-serif';
-  color: red;
+  color: black;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -54,7 +54,7 @@ p {
 
 a {
   cursor: pointer;
-  color: darkblue;
+  color: darkturquoise;
 }
 
 a:hover {
